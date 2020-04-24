@@ -1,4 +1,4 @@
-package com.zhss.eureka;
+package com.yulu.eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
