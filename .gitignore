@@ -1,0 +1,10 @@
+# Project exclude paths
+/credit-api/target/
+/credit-service/target/
+/eureka-server/target/
+/inventory-api/target/
+/inventory-service/target/
+/order-service/target/
+/wms-api/target/
+/wms-service/target/
+/zuul-gateway/target/
