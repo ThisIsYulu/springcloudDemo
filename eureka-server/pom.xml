@@ -5,7 +5,7 @@
   	<groupId>com.yulu</groupId>
   	<artifactId>eureka-server</artifactId>
   	<version>1.0</version>
-  	<packaging>jar</packaging>
+  	<packaging>pom</packaging>
   	<name>eureka-server</name>
 
 	<parent>
@@ -15,28 +15,6 @@
 		<relativePath/>
 	</parent>
 
-<!--	<parent>-->
-<!--	    <groupId>org.springframework.boot</groupId>-->
-<!--	    <artifactId>spring-boot-starter-parent</artifactId>-->
-<!--		<version>1.5.13.RELEASE</version>-->
-<!--	</parent>-->
-<!--	-->
-<!--  	<properties>-->
-<!--    	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>-->
-<!--  	</properties>-->
-
-<!--	<dependencyManagement>-->
-<!--	    <dependencies>-->
-<!--	        <dependency>-->
-<!--	            <groupId>org.springframework.cloud</groupId>-->
-<!--	            <artifactId>spring-cloud-dependencies</artifactId>-->
-<!--	            <version>Edgware.SR3</version>-->
-<!--	            <type>pom</type>-->
-<!--	            <scope>import</scope>-->
-<!--	        </dependency>-->
-<!--		</dependencies>-->
-<!--	</dependencyManagement>-->
-
   	<dependencies>
     	<dependency>
 			<groupId>org.springframework.cloud</groupId>
@@ -44,11 +22,15 @@
 	    </dependency>
 	    <dependency>
 	        <groupId>org.springframework.cloud</groupId>
-	        <artifactId>spring-cloud-starter-eureka</artifactId>
+	        <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 		<dependency>
 		    <groupId>org.springframework.cloud</groupId>
-		    <artifactId>spring-cloud-starter-eureka-server</artifactId>
+		    <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 		</dependency>
-  	</dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+    </dependencies>
 </project>
