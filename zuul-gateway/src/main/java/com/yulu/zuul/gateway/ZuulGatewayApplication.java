@@ -1,4 +1,4 @@
-package com.zhss.demo.zuul.gateway;
+package com.yulu.zuul.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

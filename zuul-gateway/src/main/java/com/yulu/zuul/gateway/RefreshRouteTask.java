@@ -1,4 +1,4 @@
-package com.zhss.demo.zuul.gateway;
+package com.yulu.zuul.gateway;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.netflix.zuul.RoutesRefreshedEvent;

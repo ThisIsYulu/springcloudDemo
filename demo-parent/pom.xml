@@ -35,6 +35,7 @@
         <spring-cloud-starter-config.version>2.1.1.RELEASE</spring-cloud-starter-config.version>
         <spring-cloud-starter-netflix-eureka-client.version>2.1.1.RELEASE</spring-cloud-starter-netflix-eureka-client.version>
         <spring-cloud-starter-netflix-eureka-server.version>2.1.1.RELEASE</spring-cloud-starter-netflix-eureka-server.version>
+        <mysql-connector-java.version>8.0.16</mysql-connector-java.version>
     </properties>
 
     <repositories>
@@ -193,6 +194,12 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>${com.alibaba.fastjson}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql-connector-java.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

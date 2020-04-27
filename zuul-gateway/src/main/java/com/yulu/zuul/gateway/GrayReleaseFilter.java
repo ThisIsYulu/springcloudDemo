@@ -1,4 +1,4 @@
-package com.zhss.demo.zuul.gateway;
+package com.yulu.zuul.gateway;
 
 import org.springframework.context.annotation.Configuration;
 
@@ -10,7 +10,6 @@ import io.jmnarloch.spring.cloud.ribbon.support.RibbonFilterContextHolder;
 import static org.springframework.cloud.netflix.zuul.filters.support.FilterConstants.*;
 
 import java.util.Map;
-import java.util.Random;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;

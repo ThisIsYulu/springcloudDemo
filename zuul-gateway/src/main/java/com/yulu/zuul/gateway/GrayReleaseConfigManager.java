@@ -1,4 +1,4 @@
-package com.zhss.demo.zuul.gateway;
+package com.yulu.zuul.gateway;
 
 import java.util.List;
 import java.util.Map;

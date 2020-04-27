@@ -1,4 +1,4 @@
-package com.zhss.demo.zuul.gateway;
+package com.yulu.zuul.gateway;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.web.ServerProperties;
@@ -19,8 +19,9 @@ public class DynamicRouteConfiguration {
  
     @Bean
     public DynamicRouteLocator routeLocator() {
-    	DynamicRouteLocator routeLocator = new DynamicRouteLocator(
-    			this.server.getServletPrefix(), this.zuulProperties);
+        System.out.println(1);
+        DynamicRouteLocator routeLocator = new DynamicRouteLocator(
+    			"", this.zuulProperties);
         routeLocator.setJdbcTemplate(jdbcTemplate);
         return routeLocator;
     }
